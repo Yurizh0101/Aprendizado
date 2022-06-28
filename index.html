@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Desenvolvimento</title>
+    <style>
+        h1{
+            background-color: black;
+            font-family: 'Open Sans';
+            color: aliceblue;    
+            text-align: center;  
+            margin-left: 50px;
+            margin-right: 50px;  
+            font-size: 200%;
+            border-radius: 100px;
+        }
+        body{
+        background-color: #f1f1f1;
+        font-family: 'Open Sans';
+        }
+        .Paragrafo{
+        margin-right: 60%;
+        }
+        #Botão{
+        border: none;
+        border-radius: 205px;
+        background-color: black;
+        color: beige;
+        font-family: 'Opens Sans';
+        height: 25px;
+        width: 80px;
+        margin-top: 5px;
+        }
+        img{
+        width: 70%; 
+        height: 40%;
+
+        }
+    </style>
+</head>
+<script>
+    function testBotão(){
+    document.getElementById("P2").innerHTML = "Imagemtestfailed"
+    }
+    function posiçãoTextual(){
+    let text01 = "Teste de escrita!"
+    let text02 = text01.slice()
+    document.getElementById("P1").innerHTML = text02.toUpperCase()
+    }
+</script>
+<body>
+<h1>Desenvolvendo o aprendizado.</h1>
+<p Class="Paragrafo" id="P1">Desenvolverei os aprendizados que tive na parte das linguagens de computação, nas quais seriam<strong><abrr title="HyperText Markup Language"> HTML</abrr></strong>,<strong><abrr title="Cascading Style Sheets"> CSS</abrr></strong>,
+<strong><abrr title="JavaScript"> JS</abrr></strong>.
+    <br>
+   <strong><button id="Botão" type="button" onclick="posiçãoTextual()" >Clica aqui!
+    </button></strong>
+    <br>
+</body>
+</html>
